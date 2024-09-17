@@ -1,0 +1,10 @@
+.contenedor {
+  background-color: brown;
+  text-align: center;
+  border: 1px solid green;
+  margin: 4rem;
+}
+
+img {
+  width: 20vh;
+}

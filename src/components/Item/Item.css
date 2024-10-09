@@ -8,19 +8,20 @@
   flex-direction: column;
   align-items: center;
   color: rgb(0, 0, 0);
+  border: 2px solid black;
 }
 
 .cardProducto img {
   width: 150px;
   object-fit: contain;
-  background-color: rgba(82, 82, 82, 0.219);
+  background-color: rgba(180, 179, 179, 0.219);
 }
 
 .cardButton {
-  background-color: #a9ce16;
+  background-color: rgb(255, 153, 0);
   color: #fafafa;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: none;
+  border: 2px solid black;
   padding: 10px 20px;
 }

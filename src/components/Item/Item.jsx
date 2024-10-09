@@ -8,7 +8,6 @@ const Item = ({ id, nombre, año, precio, img, stock }) => {
       <h3>{nombre}</h3>
       <p>Temporada: {año}</p>
       <p>Precio: ${precio}</p>
-      <p>ID: {id}</p>
       <p>Stock: {stock}</p>
       <Link to={`/item/${id}`} className="cardButton">
         Ver Detalles

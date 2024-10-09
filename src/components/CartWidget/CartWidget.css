@@ -1,7 +1,9 @@
-img {
+.carrito-icon {
   height: 80px;
   width: 80px;
+  margin-right: 2rem;
 }
 strong {
-  color: grey;
+  color: rgb(255, 123, 0);
+  font-size: 1rem;
 }

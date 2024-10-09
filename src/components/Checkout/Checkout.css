@@ -1,0 +1,58 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.checkout-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-container label {
+  margin: 12px 0 6px;
+  color: #34495e;
+  font-size: 16px;
+}
+
+.checkout-container input {
+  padding: 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  transition: border-color 0.3s ease;
+}
+
+.checkout-container input:focus {
+  outline: none;
+  border-color: #1abc9c;
+  background-color: #ecf0f1;
+}
+
+.checkout-container button {
+  background-color: #1abc9c;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-container button:hover {
+  background-color: #16a085;
+}

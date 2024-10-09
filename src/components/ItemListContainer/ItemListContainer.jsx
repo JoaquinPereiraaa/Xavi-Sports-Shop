@@ -27,7 +27,6 @@ const ItemListContainer = () => {
       })
       .catch((error) => console.log(error))
       .finally(() => {
-        console.log("proceso finalizado");
         setLoading(false);
       });
   }, [idCategoria]);
